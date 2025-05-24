@@ -1,0 +1,35 @@
+# paulsorensen.io .gitignore
+# Last Modified : 2025/04/15 03:21:36
+
+#Project specific
+
+# Sensitive config
+.env
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.bak
+.*.swp
+.*.swo
+
+# Logs
+*.log
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+._*
+.DS_Store
+.LSOverride
+
+# Windows
+[Dd]esktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db

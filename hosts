@@ -1,0 +1,49 @@
+###################################################################################################
+# Title          : Nordic DNS Blocklist
+# Project Site   : https://github.com/PaulSorensen/nordic-dns-blocklist
+# Latest Version : https://raw.githubusercontent.com/PaulSorensen/nordic-dns-blocklist/main/hosts
+# Last Modified  : 2025/05/24 02:10:00
+#
+# Description:
+# This hosts file is a curated list of ad, tracker, and behavioral analytics domains.
+# It targets domains commonly used in the Nordic countries, but is not limited to them.
+# Its goal is to enhance privacy by blocking intrusive ads, trackers, and profiling services.
+###################################################################################################
+0.0.0.0 cl-eu6.k5a.io
+0.0.0.0 listql.ekstrabladet.services
+0.0.0.0 longboat.ekstrabladet.dk
+0.0.0.0 lwgadm.com
+0.0.0.0 europe.delivery.adnuntius.com
+0.0.0.0 scripts.contimo.app
+0.0.0.0 aj2438.online
+0.0.0.0 gadk.hit.gemius.pl
+0.0.0.0 applets.ebxcdn.com
+0.0.0.0 content.lwgadm.com
+0.0.0.0 s.infogram.com
+0.0.0.0 universe-static.elfsightcdn.com
+0.0.0.0 bt-cdn.relevant-digital.com
+0.0.0.0 tv2-cdn.relevant-digital.com
+0.0.0.0 worker15-api.relevant-digital.com
+0.0.0.0 web-sdk.smartlook.com
+0.0.0.0 berlingske-s2s.cncpt.dk
+0.0.0.0 cl.k5a.io
+0.0.0.0 westeurope-1.in.applicationinsights.azure.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 cdn.jifo.co
+0.0.0.0 leeknotestaticcontent.sleeknote.com
+0.0.0.0 sleeknotestaticcontent.sleeknote.com
+0.0.0.0 scout.data.funkedigital.de
+0.0.0.0 context.bonad.io
+0.0.0.0 assets.bonad.io
+0.0.0.0 cdn.dn-static.se
+0.0.0.0 tracking.dn.se
+0.0.0.0 cmp.bonniernews.se
+0.0.0.0 micro.rubiconproject.com
+0.0.0.0 static.svd.se
+0.0.0.0 cmpv2.dba.dk
+0.0.0.0 cmpv2.finn.no
+0.0.0.0 sdk-cdn.pulse.m10s.io
+0.0.0.0 pulse.m10s.io
+0.0.0.0 cis.m10s.io
+0.0.0.0 cis.schibsted.com
+0.0.0.0 ncis.schibsted.com
