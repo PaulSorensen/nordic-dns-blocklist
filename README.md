@@ -55,7 +55,7 @@ After editing the hosts file, flush your DNS cache:
 - **Linux** (systemd-based):
 
   ```bash
-  sudo systemd-resolve --flush-caches
+  sudo resolvectl flush-caches
   ```
 
 - **macOS**:
