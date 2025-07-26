@@ -2,7 +2,7 @@
 # Title          : Nordic DNS Blocklist
 # Project Site   : https://github.com/PaulSorensen/nordic-dns-blocklist
 # Latest Version : https://raw.githubusercontent.com/PaulSorensen/nordic-dns-blocklist/main/hosts
-# Last Modified  : 2025/05/24 02:10:00
+# Last Modified  : 2025/07/26 23:40:35
 #
 # Description:
 # This hosts file is a curated list of ad, tracker, and behavioral analytics domains.
@@ -60,3 +60,7 @@
 0.0.0.0 csync.smilewanted.com
 0.0.0.0 tracking.adlab.dk
 0.0.0.0 alb.reddit.com
+0.0.0.0 applytics.nordvpn.com
+0.0.0.0 euw1-device-telemetry-gw.iot.i.tplinknbu.com
+0.0.0.0 firebaselogging-pa.googleapis.com
+0.0.0.0 metrics-ingress.svc.vinted.com

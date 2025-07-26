@@ -13,7 +13,8 @@ If you're already using other popular blocklists, this list is meant to compleme
 This blocklist is compatible with:
 
 - All major operating systems (Linux, Unix, macOS, Windows)
-- DNS sinkholes like [Pi-hole](https://pi-hole.net/)
+- [Adguard Home](https://adguard.com/en/adguard-home/overview.html)
+- [Pi-hole](https://pi-hole.net/)
 - Router-level DNS filtering
 - DNS proxies like `dnsmasq` or Acrylic DNS Proxy
 
@@ -21,19 +22,42 @@ The list uses the `0.0.0.0 domain.com` format - a standard hosts file syntax sup
 
 ## Integration Options
 
+### Adguard Home
+
+To use this blocklist in **Adguard Home**:
+
+1. Open the *Web Admin Interface*
+
+2. Go to *Filters > DNS blocklists*
+
+3. Add the following URL:
+   
+   ```text
+   https://raw.githubusercontent.com/PaulSorensen/nordic-dns-blocklist/main/hosts
+   ```
+
+4. Click *Save*
+
+5. Click *Check for updates*
+
+This will merge the list with your existing blocklists.
+
 ### Pi-hole
 
 To use this blocklist in **Pi-hole**:
 
 1. Open the *Web Admin Interface*
-2. Go to *Lists*
-3. Add the following URL:
 
+2. Go to *Lists*
+
+3. Add the following URL:
+   
    ```text
    https://raw.githubusercontent.com/PaulSorensen/nordic-dns-blocklist/main/hosts
    ```
 
 4. Click *Add blocklist*
+
 5. Update Gravity under *Tools > Update Gravity*
 
 This will merge the list with your existing blocklists.
@@ -53,19 +77,19 @@ You can manually append this list to your system’s `hosts` file:
 After editing the hosts file, flush your DNS cache:
 
 - **Linux** (systemd-based):
-
+  
   ```bash
   sudo resolvectl flush-caches
   ```
 
 - **macOS**:
-
+  
   ```bash
   sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
   ```
 
 - **Windows**:
-
+  
   ```cmd
   ipconfig /flushdns
   ```
